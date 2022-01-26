@@ -3,7 +3,7 @@ home: true
 title: Home
 actions:
   - text: Get Started
-    link: /guide/getting-started
+    link: /guide/setup
     type: primary
   - text: Learn More
     link: /guide/introduction

@@ -15,8 +15,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: 'Guide',
         children: [
-          '/guide/introduction.md',
-          '/guide/setup.md',
+          '/guide/introduction',
+          '/guide/setup',
         ],
       },
       {
