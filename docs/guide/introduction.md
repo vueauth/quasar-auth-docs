@@ -6,7 +6,7 @@ QuasarAuth has three core objectives:
 3. Easily support **ANY auth provider**
 
 ## Lightning fast setup
-Setting up VueAuth is a breeze and can be done in [three short steps](/guide/getting-started)
+Setting up VueAuth for Quasar is a breeze and can be done in [three short steps](/guide/getting-started)
 1. add the app extension
 2. select an auth provider
 3. paste your credentials

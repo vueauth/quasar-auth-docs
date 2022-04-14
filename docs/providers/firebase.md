@@ -61,7 +61,7 @@ Done! Run `quasar dev` and visit the `/register` page to give it a try 😄...
 
 And remember, **you can configure EVERYTHING** by editing the files inside `src/auth/`
 
-## Finding your firebase credentials
+## Adding your firebase credentials
 > If you've followed the guide up to this point, the following steps will not be required.
 
 Already have a firebase web app? Here's how you find the credentials you need to setup with QuasarAuth:
