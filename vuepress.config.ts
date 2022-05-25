@@ -1,15 +1,14 @@
 import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import {defaultTheme} from '@vuepress/theme-default'
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   // site config
   lang: 'en-US',
   title: 'VueAuth',
   description: 'Vue Authentication Vue Made Easy!',
 
   // theme and its config
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     // logo: 'https://vuejs.org/images/logo.png',
     sidebar: [
       {
@@ -29,5 +28,5 @@ export default defineUserConfig<DefaultThemeOptions>({
         ]
       }
     ]
-  },
+  }),
 })
